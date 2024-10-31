@@ -45,7 +45,7 @@ class _FirstScreenState extends State<FirstScreen> {
   // Fetch news data from API
   Future<void> fetchNews() async {
     final response = await http.get(
-      Uri.parse('https://api.currentsapi.services/v1/latest-news?apiKey=ymbwobO7NY6x1ozQSo_9SYo5m7pFUGv1yDRT24y4CBdeAbo0'), // Replace with your actual API key
+      Uri.parse('https://api.currentsapi.services/v1/latest-news?apiKey=ssAkKH_OVOisCqPTwVern40SsatSd1I7fVwavmIp1wwWN4YC'), // Replace with your actual API key
     );
 
     if (response.statusCode == 200) {
